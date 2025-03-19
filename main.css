@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1,
+section h2{
+    font-family: "Cinzel", serif;
+}
+
+body,
+header li a{
+    font-family: "Albert Sans", sans-serif;
+}
+
+body{
+    background-image: url('harry-potter-hogwarts-legacy-hogwarts-noite-carruagem.png');
+}
+
+header{
+    background-color: rgb(0, 2, 32);
+    padding: 16px 0;
+}
+header nav li{
+    display: inline;
+    margin-right: 8px;
+}
+
+header h1{  
+    color:rgb(255, 255, 255);
+    font-size: 38px;
+}
+
+header nav li a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header nav li a:hover{
+    color:rgb(255, 251, 0);;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section{
+    margin-top: 90px;
+}
+
+section .bolinha{
+    display: block;
+}
+
+section .quadrado{
+    border: 2px solid rgba(7, 7, 7, 0.375);
+    background-color: rgba(0, 0, 0, 0.429);
+    width: 350px;
+    height: 600px;
+}
+
+section .quadrado{
+    padding: 2px;
+}
+
+section .quadrado img{
+    height: 370px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+section .quadrado h3{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 6px;
+    color: rgb(255, 255, 255);
+}
+
+section .quadrado p{
+    margin-top: 8px;
+}
+
+section .quadrado .valor{
+    color:  rgb(0, 0, 0);
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+section .quadrado button{
+    height: 40px;
+    width: 140px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+section button:hover{
+    background-color:rgba(0, 0, 0, 0.448);
+}
+
+section .div h2{
+    margin-top: 40px;
+    margin-left: 37px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color:rgb(255, 255, 0);
+}
+section .div p{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color:rgb(255, 255, 255)
+}
+
+#contact h2{
+    margin-left: 37px;
+    margin-bottom: 70px;
+    font-size: 50px;
+    color:rgb(255, 255, 0);
+}
+
+.social-links img{
+    height: 30px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 15px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color:  rgb(0, 2, 32);
+    color:white;
+    border:none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color:  rgb(51, 55, 119);;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+#contact p{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+}
+
+footer{
+    background-color:  rgb(0, 2, 32);
+    color:rgb(255, 255, 255);
+    padding: 16px 0;
+}
+
+
+
+
+
